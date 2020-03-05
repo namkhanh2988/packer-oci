@@ -33,7 +33,8 @@
       "inline": [
         "sleep 3",
 	      "sudo -u root echo 'varBuild300' > .ImageID",
-	      "sudo -u root yum install -y git xclip wget zip"
+	      "sudo -u root yum install -y git xclip wget zip python-pip",
+	      "sudo -u root pip install ansible"
  	     ]
     },
     {
@@ -46,7 +47,16 @@
       "inline": [
         "sudo -u root cp /tmp/selinux_config /etc/selinux/config"
        ]
-    }
+    },
+    {
+        "type": "file",
+        "source": "/home/opc/ansible/",
+        "destination": "/home/opc/"
+     },
+    {
+      "type": "ansible-local",
+      "playbook_file": "/home/opc/playbook.yaml",
+    },
   ]
 }
 
