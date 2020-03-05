@@ -33,7 +33,7 @@
       "inline": [
         "sleep 3",
 	      "sudo -u root echo 'varBuild300' > .ImageID",
-	      "sudo -u root yum install -y git xclip wget zip python-pip",
+	      "sudo -u root yum install -y xclip wget zip python-pip",
 	      "sudo -u root pip install ansible"
  	     ]
     },
@@ -52,7 +52,7 @@
       "type": "ansible-local",
       "playbook_file": "playbook.yml",
       "playbook_dir": "."
-    },
+    }
   ]
 }
 
