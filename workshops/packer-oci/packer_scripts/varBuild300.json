@@ -49,13 +49,9 @@
        ]
     },
     {
-        "type": "file",
-        "source": "/home/opc/ansible/",
-        "destination": "/home/opc/"
-     },
-    {
       "type": "ansible-local",
-      "playbook_file": "/home/opc/playbook.yaml",
+      "playbook_file": "playbook.yml",
+      "playbook_dir": "."
     },
   ]
 }
