@@ -1,5 +1,6 @@
 - name : packer_ansible
   hosts: all
+  become: yes
 
   tasks:
     - name: Install git.
