@@ -6,5 +6,5 @@
       "my.region": "us-ashburn-1",
       "my.compartment_ocid": "ocid1.compartment.oc1..aaaaaaaaztlikxtfte2mcdtyeyzvrcbjm6x3yfo2uhfh2kfemgvnmnqvc56q",
       "my.subnet_ocid": "ocid1.subnet.oc1.iad.aaaaaaaaiizoxcdbhmexlqyvwzkgkh34i63t5npopu3uvgnal5unj54vguhq",
-      "my.base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaarsu56scul4muz3sqbptvykipy2rn6re3wzdjvncgcpgqt5cp3wja"
+      "my.base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaavzjw65d6pngbghgrujb76r7zgh2s64bdl4afombrdocn4wdfrwdq"
     }
