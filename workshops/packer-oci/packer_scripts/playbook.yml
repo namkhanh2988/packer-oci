@@ -1,4 +1,6 @@
 - name : packer_ansible
   hosts: all
-  roles:
-    - nodejs
+
+  tasks:
+    - name: Install git.
+      yum: name=git
