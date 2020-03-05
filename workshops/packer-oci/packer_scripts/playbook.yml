@@ -1,0 +1,4 @@
+- name : packer_ansible
+  hosts: all
+  roles:
+    - nodejs
